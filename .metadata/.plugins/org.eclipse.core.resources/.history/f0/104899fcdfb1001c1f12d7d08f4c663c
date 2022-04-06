@@ -1,0 +1,17 @@
+package com.formacionbdi.springboot.appitem;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class AppConfig {
+	
+	/*RestTemplate: Es un cliente para trabajar con HTTP , 
+	para poder acceder al recurso que estan en otros microservicios*/
+	@Bean("clienteRest") // para que se guarde en el contenedor con ese nombre
+	public RestTemplate registrarRestTemplate() {
+		return new RestTemplate(); 
+	}
+
+}

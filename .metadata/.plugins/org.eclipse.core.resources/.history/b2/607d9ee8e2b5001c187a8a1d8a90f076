@@ -1,0 +1,39 @@
+package com.formacionbdi.springboot.appsede.model;
+
+import java.io.Serializable;
+
+public class Sede implements Serializable {
+	
+
+	private static final long serialVersionUID = 830526721403591423L;
+	
+	private Integer id;
+	private String nombre;
+	
+	
+	public Sede() {
+		super();
+	}
+	public Sede(Integer id, String nombre) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
+	
+	
+
+}

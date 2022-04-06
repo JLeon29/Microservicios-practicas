@@ -1,0 +1,26 @@
+package com.formacionbdi.springboot.appitem.models.service;
+
+import java.awt.ItemSelectable;
+import java.awt.event.ItemListener;
+
+public class ItemServiceImpl implements ItemSelectable {
+
+	@Override
+	public Object[] getSelectedObjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addItemListener(ItemListener l) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeItemListener(ItemListener l) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

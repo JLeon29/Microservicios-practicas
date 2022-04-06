@@ -1,0 +1,10 @@
+package com.formacionbdi.springboot.appempleados.controlador;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmpleadoController {
+	
+	
+
+}

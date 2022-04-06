@@ -1,0 +1,40 @@
+package com.formacionbdi.springboot.appempleados.servicio;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.formacionbdi.springboot.appempleados.model.Empleado;
+import com.formacionbdi.springboot.appempleados.repositorio.EmpleadoRepositorio;
+
+@Service
+public class EmpleadoServiceImpl implements IEmpleadoService {
+	
+	
+	private EmpleadoRepositorio repositorio;
+
+	@Override
+	public List<Empleado> listar() {
+		return repositorio.findAll();
+	
+	}
+
+	@Override
+	public Empleado guardar(Empleado e) {
+		repositorio.s
+		return null;
+	}
+
+	@Override
+	public void borrar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Empleado buscarPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

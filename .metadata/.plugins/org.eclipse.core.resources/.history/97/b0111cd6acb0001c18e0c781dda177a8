@@ -1,0 +1,9 @@
+package com.formacionbdi.springboot.appproductos.models.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.formacionbdi.springboot.appproductos.models.entity.Producto;
+
+public interface ProductoDao extends JpaRepository<Producto, Long>{
+
+}

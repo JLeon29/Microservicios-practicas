@@ -1,0 +1,20 @@
+package com.formacionbdi.springboot.appsede.model;
+
+import java.io.Serializable;
+
+public class Sede implements Serializable {
+	
+
+	private static final long serialVersionUID = 830526721403591423L;
+	
+	private Empleado empleado
+	private String nombre;
+	
+	
+	
+	
+	
+	
+	
+
+}

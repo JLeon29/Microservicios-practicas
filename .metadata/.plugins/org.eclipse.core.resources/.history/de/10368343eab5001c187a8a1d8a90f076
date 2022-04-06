@@ -1,0 +1,8 @@
+package com.formacionbdi.springboot.appsede.clientes;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name= "servicio-empleados", url = "localhost:8005")
+public class EmpleadoClienteRest {
+
+}

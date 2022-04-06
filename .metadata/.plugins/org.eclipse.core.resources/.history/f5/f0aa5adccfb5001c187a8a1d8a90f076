@@ -1,0 +1,5 @@
+package com.formacionbdi.springboot.appempleados.controlador;
+
+public class EmpleadoController {
+
+}

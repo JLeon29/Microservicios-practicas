@@ -1,0 +1,26 @@
+package com.formacionbdi.springboot.appsede.servicio;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.formacionbdi.springboot.appsede.model.Sede;
+
+@Service("servicioFeign")
+public class SedeServiceFeign implements ISedeServicio {
+
+
+	@Override
+	public List<Sede> listar() {
+	
+		return null;
+	}
+
+	@Override
+	public Sede buscarPorId(Integer id, String nombre) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
