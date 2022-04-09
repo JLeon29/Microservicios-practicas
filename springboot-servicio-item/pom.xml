@@ -6,7 +6,10 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.5</version>
+
+		<!--Para utilizar RIBBON se cambia la version a 2.3.12.RELEASE y el spring 
+			cloud.version a Hoxton.SR12 Posteriormente se agrega la dependencia Ribbon -->
+		<version>2.3.12.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.formacionbdi.springboot.app-item</groupId>
@@ -16,7 +19,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.1</spring-cloud.version>
+		<spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -42,7 +45,6 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-			<version>2.2.8.RELEASE</version>
 		</dependency>
 
 	</dependencies>

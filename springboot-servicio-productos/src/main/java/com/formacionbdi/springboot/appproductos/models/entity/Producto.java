@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name="productos")
@@ -25,6 +26,9 @@ public class Producto implements Serializable{
 	
 	private String nombre;
 	private Double precio;
+	
+	@Transient // Indica que este atributo es persistente, osea que no esta mapeado a la base de datos
+	private Integer port; // Es para visualizar que puerto esta seleccionando
 	
 	@Column(name="create_at") /* para que en la base de datos se cree con guión abajo 
 	( no es necesario poner ya que la BD por degfault en Camelcase lo crea con guión abajo)*/
@@ -54,6 +58,12 @@ public class Producto implements Serializable{
 	}
 	public void setCreateAt(Date createAt) {
 		this.createAt = createAt;
+	}
+	public Integer getPort() {
+		return port;
+	}
+	public void setPort(Integer port) {
+		this.port = port;
 	}
 	
 	

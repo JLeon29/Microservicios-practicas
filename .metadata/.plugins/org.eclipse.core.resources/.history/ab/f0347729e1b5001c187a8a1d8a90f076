@@ -1,5 +1,0 @@
-package com.formacionbdi.springboot.appsede.servicio;
-
-public interface ISedeServicio {
-
-}

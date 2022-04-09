@@ -1,5 +1,0 @@
-package com.formacionbdi.springboot.appempleados.repositorio;
-
-public interface EmpleadoRepositorio {
-
-}

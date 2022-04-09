@@ -1,5 +1,0 @@
-package com.formacionbdi.springboot.appitem.models;
-
-public class Producto {
-
-}
